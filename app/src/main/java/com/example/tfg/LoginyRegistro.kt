@@ -1,5 +1,6 @@
 package com.example.tfg
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.tfg.databinding.ActivityLoginyRegistroBinding
@@ -13,6 +14,9 @@ class LoginyRegistro : AppCompatActivity() {
         val binding = ActivityLoginyRegistroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        binding.botonLogin.setOnClickListener(){
+            val intent = Intent(this@LoginyRegistro, InicioSesion::class.java)
+            startActivity(intent)
+        }
     }
 }

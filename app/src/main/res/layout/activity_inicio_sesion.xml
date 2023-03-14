@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondoladrillo"
-    tools:context=".LoginyRegistro">
+    android:backgroundTintMode="screen"
+    tools:context=".InicioSesion">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -19,66 +20,71 @@
         app:layout_constraintVertical_bias="0.092" />
 
     <Button
-        android:id="@+id/botonLogin"
-        android:layout_width="315dp"
-        android:layout_height="47dp"
+        android:id="@+id/botonInicioSesion"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
         android:backgroundTint="#008037"
-        android:fontFamily="monospace"
-        android:text="Iniciar sesion con tu cuenta"
-        android:textStyle="bold"
+        android:text="Iniciar sesion"
         app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.608"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.688" />
 
-    <Button
-        android:id="@+id/botonRegistrarse"
-        android:layout_width="232dp"
-        android:layout_height="56dp"
-        android:background="@android:color/transparent"
-        android:fontFamily="casual"
-        android:text="Registrarse"
-        android:textColor="#008037"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:cornerRadius="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
-
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="101dp"
-        android:layout_height="82dp"
-        android:background="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755"
-        app:srcCompat="@drawable/buscar_removebg_preview"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textoGoogle"
+    <EditText
+        android:id="@+id/textoNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#008037"
+        android:backgroundTintMode="src_over"
+        android:ems="10"
         android:fontFamily="casual"
-        android:text="Iniciar sesión con Google"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#008037"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <EditText
+        android:id="@+id/textoContra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#008037"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#008037"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <Button
+        android:id="@+id/botonRecuperarContraseá"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="casual"
+        android:text="¿Olvidaste tu contraseña?"
         android:textColor="#008037"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
-
-
+        app:layout_constraintVertical_bias="0.863" />
 </androidx.constraintlayout.widget.ConstraintLayout>
