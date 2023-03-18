@@ -31,7 +31,7 @@ class InicioSesion : AppCompatActivity() {
                     binding.textoNombre.text.toString(), binding.textoContra.text.toString()
                 ).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        showHome(it.result?.user?.email ?: "", tipo.JUGADOR)
+                        showHome(it.result?.user?.email ?: "")
                     } else {
                         showAlert()
                     }
@@ -49,10 +49,9 @@ class InicioSesion : AppCompatActivity() {
         dialog.show()
     }
 
-    private fun showHome(email: String, tipo: tipo) {
-        val homeIntent: Intent = Intent(this@login, usersesion::class.java).apply {
+    private fun showHome(email: String) {
+        val homeIntent: Intent = Intent(this@InicioSesion, pantallaPrincipal::class.java).apply {
             putExtra("email", email)
-            putExtra("tipo", tipo.name)
         }
         startActivity(homeIntent)
     }

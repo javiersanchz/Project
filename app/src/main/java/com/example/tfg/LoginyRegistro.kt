@@ -18,5 +18,10 @@ class LoginyRegistro : AppCompatActivity() {
             val intent = Intent(this@LoginyRegistro, InicioSesion::class.java)
             startActivity(intent)
         }
+
+        binding.botonRegistrarse.setOnClickListener() {
+            val intent = Intent(this@LoginyRegistro, Registrarse::class.java)
+            startActivity(intent)
+        }
     }
 }
