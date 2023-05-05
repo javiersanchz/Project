@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.93" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/botonGoogle"
         android:layout_width="101dp"
         android:layout_height="82dp"
         android:background="@null"
