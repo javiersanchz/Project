@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TFG</string>
+    <string name="description_button1">Descripción del botón 1</string>
+    <string name="description_button2">Descripción del botón 2</string>
+    <string name="description_button3">Descripción del botón 3</string>
+    <string name="description_button4">Descripción del botón 4</string>
+    <string name="description_button5">Descripción del botón 5</string>
+
 </resources>
