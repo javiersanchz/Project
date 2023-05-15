@@ -2,6 +2,10 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
+        <item>@font/abhaya_libre</item>
+        <item>@font/aclonica</item>
+        <item>@font/akaya_telivigala</item>
         <item>@font/architects_daughter</item>
+        <item>@font/krub_extralight</item>
     </array>
 </resources>

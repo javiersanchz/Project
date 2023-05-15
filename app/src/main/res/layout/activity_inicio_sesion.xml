@@ -40,7 +40,7 @@
         android:backgroundTintMode="src_over"
         android:ems="10"
         android:fontFamily="casual"
-        android:hint="Nombre"
+        android:hint="Email"
         android:inputType="textPersonName"
         android:textAlignment="center"
         android:textColorHint="#008037"
