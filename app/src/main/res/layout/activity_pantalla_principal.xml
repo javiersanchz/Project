@@ -14,8 +14,8 @@
 
     <ImageView
         android:id="@+id/logoImageView"
-        android:layout_width="181dp"
-        android:layout_height="138dp"
+        android:layout_width="204dp"
+        android:layout_height="170dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -43,8 +43,23 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191"
+        app:layout_constraintVertical_bias="0.235"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/krub_extralight"
+        android:textColor="#008037"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logoImageView"
+        app:layout_constraintVertical_bias="0.341" />
 
     <ImageButton
         android:id="@+id/boton1"
@@ -61,7 +76,7 @@
         app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565"
+        app:layout_constraintVertical_bias="0.54"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -80,7 +95,7 @@
         app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565"
+        app:layout_constraintVertical_bias="0.54"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -98,7 +113,7 @@
         app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.891"
+        app:layout_constraintVertical_bias="0.867"
         tools:ignore="MissingConstraints" />
 
     <ImageButton
@@ -117,106 +132,73 @@
         app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89"
+        app:layout_constraintVertical_bias="0.872"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
-        android:id="@+id/boton5"
-        android:layout_width="wrap_content"
-        android:layout_height="132dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/button_selector"
-        android:contentDescription="@string/description_button5"
-        android:src="@drawable/paginadeinicio"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.262"
-        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="61dp"
-        android:layout_height="28dp"
-        android:fontFamily="@font/aclonica"
-        android:text="Casa"
-        android:textColor="#008037"
-        android:textSize="20dp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.411" />
-
-    <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textoBuscar"
         android:layout_width="98dp"
         android:layout_height="27dp"
-        android:fontFamily="@font/aclonica"
+        android:fontFamily="@font/krub_extralight"
         android:text="Buscar"
         android:textColor="#008037"
         android:textSize="20dp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.91" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="195dp"
-        android:layout_height="24dp"
-        android:fontFamily="@font/aclonica"
-        android:text="Suplementación"
+        android:id="@+id/textoSuplementacion"
+        android:layout_width="160dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/krub_extralight"
+        android:text="Suplementacion"
         android:textColor="#008037"
         android:textSize="20dp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.911" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textAlimentos"
         android:layout_width="120dp"
         android:layout_height="34dp"
-        android:fontFamily="@font/aclonica"
+        android:fontFamily="@font/krub_extralight"
         android:text="Alimentos"
         android:textColor="#008037"
         android:textSize="20dp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.68" />
+        app:layout_constraintVertical_bias="0.651" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="88dp"
-        android:layout_height="24dp"
+        android:id="@+id/textoNoticias"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
         android:fontFamily="@font/krub_extralight"
         android:text="Noticias"
         android:textColor="#008037"
         android:textSize="20dp"
-        android:textStyle="bold|italic"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.647" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

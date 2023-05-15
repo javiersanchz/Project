@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,14 +11,17 @@
         android:roundIcon="@drawable/logoapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.TFG"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".Desayunos"
+            android:name=".LocalesDesayuno"
+            android:exported="false" />
+        <activity
+            android:name=".LocalesRestaurantes"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Restaurantes"
+            android:name=".BuscarLocales"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -31,7 +34,7 @@
             android:name=".pantallaPrincipal"
             android:configChanges="orientation"
             android:exported="false"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -40,7 +43,7 @@
             android:name=".Registrarse"
             android:configChanges="orientation"
             android:exported="false"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -49,7 +52,7 @@
             android:name=".InicioSesion"
             android:configChanges="orientation"
             android:exported="false"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -58,7 +61,7 @@
             android:name=".LoginyRegistro"
             android:configChanges="orientation"
             android:exported="false"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -67,7 +70,7 @@
             android:name=".Comienzo"
             android:configChanges="orientation"
             android:exported="true"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
