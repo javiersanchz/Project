@@ -28,11 +28,11 @@ class LocalesDesayuno : AppCompatActivity() {
             listView = findViewById(R.id.listView2)
 
             restaurantes = arrayListOf(
-                Locales("Choose Restaurante Vegano", "Restaurante que sirve versiones veganas de platos típicos italianos, incluidas pastas, pizzas y risottos", R.drawable.chooserestaurante, "Choose Restaurante Vegano"),
-                Locales("Punto Vegano", "Restaurante de comida vegetariana estricta con variedad de platos", R.drawable.puntovegano, "Punto Vegano"),
-                Locales("Distrito Vegano Invernadero", "Restaurante de comida vegetariana estricta con variedad de platos", R.drawable.distritovegano, "Distrito Vegano Invernadero"),
-                Locales("Mudrá Plant Based Food - Restaurante Vegano", "Restaurante refinado y moderno con un menú de platos veganos creativos.", R.drawable.mudraplant, "Mudrá Plant Based Food - Restaurante Vegano "),
-                Locales("VEGA", "Restaurante chic de cocina vegana con platos veganos, postres y bebidas naturales", R.drawable.vega, "VEGA")
+                Locales("VegAmazing Doughnuts", "Tienda de donuts vegana, con variedad de dulces", R.drawable.vegamazing, "VegAmazing Doughnuts"),
+                Locales("Freedom Cakes Café", "Cafetería retro con dulces clásicos veganos", R.drawable.freedomcakes, "Freedom Cakes Café"),
+                Locales("Dolce&Vegana enjoy ethically", "Pastelería vegana con variedad de dulces", R.drawable.dolcevegana, "Dolce&Vegana enjoy ethically"),
+                Locales("Delish Vegan Doughnuts", "Panadería con variedad de productos creativos veganos", R.drawable.delishvegan, "Delish Vegan Doughnuts"),
+                Locales("Bite Me Café", "Local especializado en donuts veganos con variedad de dulces", R.drawable.bitemecafe, "Bite Me Café")
             )
 
             adapter = RestauranteAdapter(this, restaurantes)

@@ -53,6 +53,11 @@ class pantallaPrincipal : AppCompatActivity() {
             val intent = Intent(this, BuscarLocales::class.java)
             startActivity(intent)
         }
+
+        binding.boton3.setOnClickListener {
+            val intent = Intent(this, Suplementos::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun obtenerSaludo(): String {
