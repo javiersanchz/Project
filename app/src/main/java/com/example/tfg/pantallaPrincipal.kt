@@ -34,7 +34,9 @@ class pantallaPrincipal : AppCompatActivity() {
         if (documentReference != null) {
             documentReference.get().addOnSuccessListener { documentSnapshot ->
                 if (documentSnapshot.exists()) {
-                    val nombre = documentSnapshot.getString("nombre")
+                    var nombre = documentSnapshot.getString("nombre")
+                    val nombreCapitalizado = nombre?.capitalize()
+                    nombre = nombreCapitalizado.toString()
                     val saludo = obtenerSaludo()
                     val mensaje = "$saludo $nombre"
                     textView = findViewById<TextView>(R.id.textSaludo)
@@ -56,6 +58,11 @@ class pantallaPrincipal : AppCompatActivity() {
 
         binding.boton3.setOnClickListener {
             val intent = Intent(this, Suplementos::class.java)
+            startActivity(intent)
+        }
+
+        binding.boton2.setOnClickListener {
+            val intent = Intent(this, Noticias::class.java)
             startActivity(intent)
         }
     }

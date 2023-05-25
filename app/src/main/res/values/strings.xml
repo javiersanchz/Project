@@ -5,5 +5,8 @@
     <string name="description_button3">Descripción del botón 3</string>
     <string name="description_button4">Descripción del botón 4</string>
     <string name="description_button5">Descripción del botón 5</string>
+    <string name="next_page">Siguiente página</string>
+    <string name="previous_page" />
+
 
 </resources>
