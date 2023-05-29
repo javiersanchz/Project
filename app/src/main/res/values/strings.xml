@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">TFG</string>
     <string name="description_button1">Descripción del botón 1</string>
     <string name="description_button2">Descripción del botón 2</string>
@@ -8,5 +9,6 @@
     <string name="next_page">Siguiente página</string>
     <string name="previous_page" />
 
-
 </resources>
+
+    <!-- strings.xml -->

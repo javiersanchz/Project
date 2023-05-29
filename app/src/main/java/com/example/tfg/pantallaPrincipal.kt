@@ -65,6 +65,13 @@ class pantallaPrincipal : AppCompatActivity() {
             val intent = Intent(this, Noticias::class.java)
             startActivity(intent)
         }
+
+        binding.boton1.setOnClickListener {
+            val intent = Intent(this, Recetas::class.java)
+            startActivity(intent)
+        }
+
+
     }
 
     private fun obtenerSaludo(): String {
