@@ -70,7 +70,5 @@ class RecuContra : AppCompatActivity() {
 
                     mDialog.dismiss()
                 }
-
-
     }
 }
